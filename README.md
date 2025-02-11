@@ -1,7 +1,5 @@
 # My Portfolio  
 A personal portfolio showcasing my projects, skills, and experience as a software developer.
-## Live Demo  
-Check out my portfolio: [My Portfolio](https://yourusername.github.io/)
 ## Features  
 ✅ Responsive design  
 ✅ Interactive animations  
