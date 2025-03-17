@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathvika Balabhadra - Portfolio</title>
+    <meta name="description" content="Portfolio of Sathvika Balabhadra, showcasing projects and experience in software development.">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Sathvika Balabhadra- Portfolio">
+    <meta property="og:description" content="Portfolio of Sathvika Balabhadra, showcasing projects and experience in software development.">
+    <meta property="og:image" content="./assets/meta_img_rounded.png">
+    <meta property="og:url" content="https://hruday-tej.github.io/">
+
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sathvika Balabhadra- Portfolio">
+    <meta name="twitter:description" content="Portfolio of Sathvika Balabhadra, showcasing projects and experience in software development.">
+    <meta name="twitter:image" content="./assets/Sathvika_Balabhadra_Resume.pdf">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hruday's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sathvika Balabhadra</div>
+      <div>
+        <ul class="nav-links">
+          <li>
+              <a
+                href="#experience"
+                onclick="smoothScroll('experience'); return false;"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a href="#skills" onclick="smoothScroll('skills'); return false;"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a
+                href="#education"
+                onclick="smoothScroll('education'); return false;"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                onclick="smoothScroll('projects'); return false;"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                onclick="smoothScroll('contact'); return false;"
+                >Contact</a
+              >
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sathvika Balabhadra</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li>
+              <a
+                href="#experience"
+                onclick="smoothScroll('experience'); return false;"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a href="#skills" onclick="smoothScroll('skills'); return false;"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a
+                href="#education"
+                onclick="smoothScroll('education'); return false;"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                onclick="smoothScroll('projects'); return false;"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                onclick="smoothScroll('contact'); return false;"
+                >Contact</a
+              >
+            </li>
+        </div>
+      </div>
+    </nav>
+    <div class="snap-container">
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/new-pfp.png" alt="Sathvika Balabhadra profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I am</p>
+        <h1 class="title">Sathvika Balabhadra</h1>
+        <p class="section__text__p2">Software Engineer - Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Sathvika_Balabhadra_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1 contact-btn"
+            onclick="smoothScroll('contact')"
+          >
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="section">
+      <p class="section__text__p1">Dive Into My</p>
+      <h1 class="title">Work Experience</h1>
+      <div class="experience-details-container">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">September 2023 - Present</div>
+              <h3>Software Engineer</h3>
+              <p>ASU Decision Theatre, Tempe, USA</p>
+              <ul class="collapsible-content">
+                <li>
+                    Developing a machine learning application to predict paper plane performance with 10% higher accuracy, integrating Python-based data pipelines for scalable computation and real-time analytics.
+                  </li>
+                  <li>
+                    Optimizing model performance by refining feature engineering and hyperparameters, aiming to improve accuracy by 15% through an Agile, iterative approach.
+                  </li>
+                  <li>
+                    Automating CI/CD workflows to streamline deployment, enhance efficiency, and reduce deployment time by 30%, leveraging Docker/Kubernetes and cloud infrastructure.
+                  </li>
+                  <li>
+                    Upgrading software architecture to improve scalability, maintainability, and system performance, ensuring seamless model integration.
+                  </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">April 2022 - June 2023</div>
+              <h3>Junior Software Developer</h3>
+              <p>Rockwell Collins, Hyderabad ,India</p>
+              <ul class="collapsible-content">
+                <li>
+                    Decomposed high-level customer requirements into 200+ detailed, testable system requirements in IBM DOORS, ensuring compliance and precision.
+                  </li>
+                  <li>
+                    Developed, updated, debugged, and maintained 50+ Python scripts for automated testing of the Primary Flight Control Computer, enhancing test efficiency and reducing manual intervention by 40%.
+                  </li>
+                  <li>
+                    Verified system-level and software-level requirements through 100+ test cases, analytical procedures, and automated test scripts, improving validation accuracy by 30%.
+                  </li>
+                  <li>
+                    Participated in peer reviews for 
+                    Identified and proactively communicated 15+ roadblocks, minimizing project delays and ensuring on-time delivery.
+                  </li>
+                  <li>
+                    Estimated, tracked, and reported technical and schedule performance metrics, ensuring 100% milestone adherence and on-time task completion.
+                  </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>
+           <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">September 2021 - March 2022</div>
+              <h3>Software Engineer Intern</h3>
+              <p>Cognizant Technology Solutions</p>
+              <ul class="collapsible-content">
+                <li>
+                  Gained experience with Python, APIs, Git, Data Structures & Algorithms via projects, code reviews & pair programming.
+                </li>
+                <li>
+                  Deployed optimization techniques and SQL queries to efficiently manage by 10%, analyze large-scale financial data.
+                </li>
+                <li>
+                  Collaborated with team to build AI solutions for real-world applications, successfully conducting data pre-processing and feature engineering tasks.
+                </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+      <br><br>
+    </section>
+<br><br>
+    <!--<section id="certifications" class="section">
+  <p class="section__text__p1">My Achievements</p>
+  <h1 class="title">Certifications</h1>
+  <div class="experience-details-container">
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">December, 2024 - December, 2027</div>
+          <h3>AWS Certified Solutions Architect - Associate</h3>
+          <p>Amazon Web Services (AWS)</p>
+           <ul class="collapsible-content">
+            <li>Designed and implemented AWS architectures following best practices.</li>
+            <li>Deep understanding of cloud computing concepts and AWS services.</li>
+            <li>Proficient in security, networking, and storage optimization in AWS.</li>
+          </ul> 
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">July, 2023 - December, 2027</div>
+          <h3>AWS Certified Cloud Practitioner</h3>
+           <p>Amazon Web Services (AWS)</p>
+           <ul class="collapsible-content">
+            <li>Expertise in designing scalable and secure GCP solutions.</li>
+            <li>Hands-on experience in cloud automation and DevOps practices.</li>
+            <li>Proficient in IAM, Kubernetes, and multi-cloud architecture strategies.</li>
+          </ul> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+</section>-->
+<br>
+<br>
+    <section id="skills" class="section">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Skills</h1>
+  <div class="skills-card">
+    <div class="skills-category">
+      <h2>Languages</h2>
+      <div class="skills-list">
+        <span class="skill-item">Python</span>
+              <span class="skill-item">C</span>
+              <span class="skill-item">C++</span>
+              <span class="skill-item">C#</span>
+              <span class="skill-item">Bash</span>
+              <span class="skill-item">Javascript</span>
+              <span class="skill-item">HTML5/CSS3</span>
+              <span class="skill-item">SQL</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h2>AWS Services</h2>
+      <div class="skills-list">
+        <span class="skill-item">Elastic Map Reduce (EMR)</span>
+        <span class="skill-item">Lambda</span>
+        <span class="skill-item">API Gateway</span>
+        <span class="skill-item">Security Groups</span>
+        <span class="skill-item">Load Balancers</span>
+        <span class="skill-item">EC2</span>
+        <span class="skill-item">S3</span>
+        <span class="skill-item">IAM</span>
+        <span class="skill-item">DynamoDB</span>
+        <span class="skill-item">SNS/SQS</span>
+        <span class="skill-item">CloudWatch</span>
+        <span class="skill-item">CloudTrail</span>
+        <span class="skill-item">KMS</span>
+        <span class="skill-item">Event Bridge</span>
+        <span class="skill-item">Route 53</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h2>Data Analytics & Processing</h2>
+      <div class="skills-list">
+        <span class="skill-item">Numpy</span>
+        <span class="skill-item">Pandas</span>
+        <span class="skill-item">Sci-Kit Learn</span>
+        <span class="skill-item">MySQL</span>
+        <span class="skill-item">PostgreSQL</span>
+        <span class="skill-item">Microsoft SQL server</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h2>AI & Machine Learning</h2>
+      <div class="skills-list">
+        <span class="skill-item">Pytorch</span>
+        <span class="skill-item">Tensorflow</span>
+        <span class="skill-item">Machine Learning</span>
+        <span class="skill-item">NLP</span>
+        <span class="skill-item">CNN</span>
+        <span class="skill-item">LSTM</span>
+        <span class="skill-item">LLM</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h2>Frameworks</h2>
+      <div class="skills-list">
+        <span class="skill-item">SpringBoot</span>
+        <span class="skill-item">Django</span>
+        <span class="skill-item">Angular</span>
+        <span class="skill-item">Flask</span>
+        <span class="skill-item">ReactJS</span>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h2>Tools & Technologies</h2>
+      <div class="skills-list">
+        <span class="skill-item">Docker</span>
+        <span class="skill-item">Kubernetes</span>
+        <span class="skill-item">Tableau</span>
+        <span class="skill-item">Azure</span>
+        <span class="skill-item">Git</span>
+        <span class="skill-item">Databricks</span>
+        <span class="skill-item">Packet Tracer</span>
+        <span class="skill-item">Linux</span>
+        <span class="skill-item">Heroku</span>
+        <span class="skill-item">IBM DOORS</span>
+        <span class="skill-item">JIRA</span>
+        <span class="skill-item">RESTful APIs</span>
+        <span class="skill-item">CI/CD</span>
+        <span class="skill-item">Agile (Scrum, Kanban)</span>
+        <span class="skill-item">SDLC</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- <section id="about"> -->
+      <!-- <p class="section__text__p1">Get To Know More</p> -->
+      <!-- <h1 class="title">About Me</h1> -->
+      <!-- <div class="section-container"> -->
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div> -->
+        <!-- <div class="about-details-container"> -->
+          <br>
+          <br>
+
+          <section id="education" class="section">
+            <p class="section__text__p1">My Academic</p>
+            <h1 class="title">Education</h1>
+            <br />
+            <div class="experience-details-container">
+              <div class="education-timeline">
+                <div class="education-item">
+                  <div class="education-dot"></div>
+                  <div class="education-content">
+                    <div class="education-date">August 2023 - Present</div>
+                    <h3>Arizona State University, Tempe</h3>
+                    <p>Master of Science</p>
+                    <p>
+                      <b>Course Work: </b>Data Visualization, Advanced Big Data Analytics, Advanced Database Management Systems, NLP, AI in
+                      Cybersecurity, Information Systems Development, Cloud Architecture.
+                    </p>
+                  </div>
+                </div>
+                <div class="education-item">
+                  <div class="education-dot"></div>
+                  <div class="education-content">
+                    <div class="education-date">August 2018 - June 2022</div>
+                    <h3>Chaitanya Bharathi Institute of Technology</h3>
+                    <p>Bachelors of Engineering</p>
+                    <p>
+                      <b>Course Work: </b> Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Deep Learning, 
+                      Distributed Cloud Computing, Operating System, DevOps, IOT.
+                    </p>
+                  </div>
+                </div>
+                <!-- Add more education items as needed -->
+              </div>
+            </div>
+            <!-- <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#next-section'"
+            /> -->
+          </section>
+          <br />
+          <!-- <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div> -->
+        </div>
+      </div>
+      <!-- <p>fjfjf</p> -->
+      <!-- <img
+        src="./assets/arrsow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+    </section>
+      <br/>
+      <br/>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Movie Recommender</h3>
+              <p><b>Technologies used : </b> Django, Python, Pandas, AWS S3, Heroku, HTML, CSS, JavaScript</p>
+              <ul class="collapsible-content">
+                <li>
+                  Built a full-stack movie recommendation system employing Collaborative Filtering, improving recommendation accuracy by 40%. Structured user authentication, movie search, and watchlist features, enhancing platform usability by 30%.
+                  </li>
+                  <li>
+                    Optimized SQLite database queries, minimizing response time by 25% for seamless performance. Launched application on Heroku, achieving 99.9% uptime and ensuring smooth accessibility.
+                  </li>
+                  <li>
+                    Combined AWS S3 for static file storage, cutting load times by 20% and boosting user experience.
+                  </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Two Factor Authentication</h3>
+              <p><b>Technologies used : </b> Python, MySQL, Flask, PyOTP, JWT, SQLAlchemy</p>
+              <ul class="collapsible-content">
+                <li>
+                  Designed and implemented a robust 2FA system using Flask and PyOTP to mitigate security vulnerabilities. Seamlessly embedded JWT for secure session management and SQLAlchemy for efficient database interactions and data integrity.
+                  </li>
+                  <li>
+                    Boosted security by 35%, lowering unauthorized access by 28%. Amplified user trust, system integrity, scalability, and optimized the security-UX balance, elevating overall application performance.
+                  </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Crop Disease Detection</h3>
+              <p><b>Technologies used : </b> Python, HTML, Pandas, Scikit-learn, OpenCV</p>
+              <ul class="collapsible-content">
+                <li>
+                  Redesigned a crop disease detection website using NLP-based text classification, upgrading diagnostic accuracy by 80%.
+                  </li>
+                  <li>
+                    Refined platform’s usability, increasing farmer engagement by 50% through a streamlined and accessible web interface.
+                  </li>
+                  <li>
+                    Implemented an image captioning system with OpenCV, Strengthening user interaction and shrinking manual disease identification efforts by 30%.
+                  </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Shopping Cart App</h3>
+              <p><b>Technologies used : </b> HTML, CSS, JavaScript</p>
+              <ul class="collapsible-content">
+                <li>
+                  Built a shopping cart UI engaging HTML & CSS, enabling users to browse and manage 100+ items dynamically.
+                  </li>
+                  <li>
+                    Utilized local storage, preserving 100% of cart data across sessions, revamping user retention by 35%.  
+                  </li>
+                  <li>
+                    Diagnosed JavaScript functions to handle real-time item addition, removal, and quantity updates, trimming processing time to under 200ms for a smooth user experience.
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div> 
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Personal Portfolio website</h3>
+              <p><b>Technologies used : </b> HTML, CSS, JavaScript</p>
+              <ul class="collapsible-content">
+                <li>
+                  Developed a fully responsive portfolio website using HTML, CSS, and JavaScript, ensuring seamless viewing across different screen sizes and devices.
+                  </li>
+                  <li>
+                    Implemented smooth scrolling and interactive navigation features using JavaScript, improving user experience and accessibility.
+                  </li>
+              </ul>
+              <button class="toggle-btn">See more</button>
+            </div>
+          </div>         
+        </div>
+      </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:sathvikabalabhadra01@gmail.com">sathvikabalabhadra01@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/Sathvika-Balabhadra">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li>
+              <a
+                href="#experience"
+                onclick="smoothScroll('experience'); return false;"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a href="#skills" onclick="smoothScroll('skills'); return false;"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a
+                href="#education"
+                onclick="smoothScroll('education'); return false;"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                onclick="smoothScroll('projects'); return false;"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                onclick="smoothScroll('contact'); return false;"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
